@@ -50,7 +50,7 @@ class App extends React.Component {
 
         return (
             <div className="app">
-                <nav className="navbar navbar-default">
+                {/* <nav className="navbar navbar-default">
                     <div className="container-fluid">
                         <div className="navbar-header">
                             <button type="button"
@@ -103,7 +103,7 @@ class App extends React.Component {
                             }
                         </div>
                     </div>
-                </nav>
+                </nav> */}
 
                 <div>
                     {this.props.children}

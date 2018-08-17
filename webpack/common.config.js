@@ -79,6 +79,10 @@ const common = {
     },
     module: {
         rules: [
+          {
+            test: /.jsx$/,
+            loader: 'babel-loader'
+          },
             {
                 test: /\.js$/,
                 use: {

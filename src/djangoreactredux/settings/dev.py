@@ -6,9 +6,17 @@ DEBUG = True
 PAGE_CACHE_SECONDS = 1
 
 DATABASES = {
+    # 'default': {
+    #     'ENGINE': 'django.db.backends.sqlite3',
+    #     'NAME': os.path.join(BASE_DIR, 'db.sqlite'),  # NOQA (ignore all errors on this line)
+    # }
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite'),  # NOQA (ignore all errors on this line)
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'db',
+        'USER': 'yak',
+        'PASSWORD': 'Yak2016',
+        'HOST': '127.0.0.1',
+        'PORT': 5432,
     }
 }
 

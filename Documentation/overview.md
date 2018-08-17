@@ -12,4 +12,6 @@ django-react-mobx-ssr-pwa-material-ui
 
 [3.react-ssr](https://github.com/custertian/react-app-v3)
 
-react还没有升级到 16 版本，webpack还没有升级到 4.x,先暂停计划
+apps 目录配置 xadmin 后台替换
+
+教师的注册 - 根据学校班级发放对应的表格

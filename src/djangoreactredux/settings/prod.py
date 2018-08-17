@@ -12,9 +12,9 @@ ALLOWED_HOSTS = ['*']
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'djangoreactredux_prod',
-        'USER': 'djangoreactredux',
-        'PASSWORD': 'password',
+        'NAME': 'db',
+        'USER': 'yak',
+        'PASSWORD': 'Yak2016',
         'HOST': 'postgres',
         'PORT': 5432,
     }
