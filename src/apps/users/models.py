@@ -7,9 +7,9 @@ from django.contrib.auth.models import AbstractUser
 class UserProfile(AbstractUser):
     """
     用户管理
-    后台管理员用户名：LearnSEL
-    邮箱：info@learnsel.com
-    密码：info@learnsel.com
+    后台管理员用户名：admin
+    邮箱：admin@admin.com
+    密码：admin123
     """
     birthday = models.DateField(null=True, blank=True, verbose_name="出生年月", help_text="出生年月自动计算年龄")
     gender = models.CharField(max_length=6, choices=(("male", "男"), ("female", "女")), default="male", verbose_name="性别", help_text="性别默认男")

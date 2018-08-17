@@ -22,3 +22,19 @@ python-dateutil==2.6.1
 git+https://github.com/Seedstars/django-rest-logger.git
 
 django-rest-knox==3.0.3
+
+# xadmin
+django-crispy-forms
+django-import-export
+django-reversion
+django-formtools
+future
+httplib2
+six
+requests
+xlwt
+xlsxwriter
+
+# rest_framework_jwt
+djangorestframework-jwt
+coreapi

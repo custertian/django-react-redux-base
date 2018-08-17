@@ -10,8 +10,8 @@ class BaseSetting(object):
 
 
 class GlobalSettings(object):
-    site_title = "LearnSEL后台"
-    site_footer = "LearnSEL"
+    site_title = "后台"
+    site_footer = "模版"
     # menu_style = "accordion"
 
 
