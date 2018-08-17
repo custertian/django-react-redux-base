@@ -26,8 +26,9 @@ INSTALLED_APPS = (
     'django.contrib.admin',
 
     'rest_framework',
-    'knox',
+    # 'knox',
     'django_extensions',
+    'rest_framework.authtoken',
 
     # 'accounts',
     'base',
@@ -37,7 +38,7 @@ INSTALLED_APPS = (
     'users.apps.UsersConfig',
 )
 
-MIDDLEWARE_CLASSES = (
+MIDDLEWARE = (
     'django.middleware.security.SecurityMiddleware',
     'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -111,11 +112,11 @@ REST_FRAMEWORK = {
 }
 
 # ############ REST KNOX ########################
-REST_KNOX = {
-    'SECURE_HASH_ALGORITHM': 'cryptography.hazmat.primitives.hashes.SHA512',
-    'AUTH_TOKEN_CHARACTER_LENGTH': 64,
-    'USER_SERIALIZER': 'knox.serializers.UserSerializer'
-}
+# REST_KNOX = {
+#     'SECURE_HASH_ALGORITHM': 'cryptography.hazmat.primitives.hashes.SHA512',
+#     'AUTH_TOKEN_CHARACTER_LENGTH': 64,
+#     'USER_SERIALIZER': 'knox.serializers.UserSerializer'
+# }
 
 # ############ 自定义用户验证 ########################
 AUTHENTICATION_BACKENDS = (
