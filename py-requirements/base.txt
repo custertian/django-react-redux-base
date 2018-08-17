@@ -24,6 +24,7 @@ git+https://github.com/Seedstars/django-rest-logger.git
 # django-rest-knox==3.0.3
 
 # xadmin
+git+git://github.com/sshwsfc/xadmin.git@django2
 django-crispy-forms
 django-import-export
 django-reversion
